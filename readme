@@ -1,0 +1,31 @@
+Subject Line:
+New Enquiry from {{from_name}} — Creative Interior Decor
+Email Body:
+Hello Creative Interior Decor Team,
+You have received a new enquiry from your website.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👤 CLIENT DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name      : {{from_name}}
+Phone     : {{phone}}
+Email     : {{email}}
+Location  : {{location}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏠 PROJECT INFO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Project Type : {{project}}
+Message :
+{{message}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Please respond within 2 hours.
+— Creative Interior Decor Website
+📌 Steps in EmailJS Dashboard:
+Go to Email Templates → Create New Template
+Set To Email → your email address
+Paste the Subject above in the Subject field
+Paste the Body above in the Content area
+Click Save
+Copy the Template ID (e.g. template_xxxxxxx) → paste it in your website
+That's it! Every form submission will land in your inbox looking exactly like that. ✅
+
+10:54 PM

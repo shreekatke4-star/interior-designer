@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Interior Decor — Modern Interior Design for Homes, Offices & Commercial Spaces</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230F0E0C'/%3E%3Cg transform='translate(32,32) rotate(45)'%3E%3Crect x='-16' y='-16' width='32' height='32' rx='4' fill='%238B6F47'/%3E%3C/g%3E%3Cpath d='M22 32 L32 20 L42 32 L32 44 Z' fill='%230F0E0C' opacity='0.6'/%3E%3Cpath d='M26 32 L32 25 L38 32 L32 39 Z' fill='%23E8DDD0' opacity='0.9'/%3E%3C/svg%3E">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230F0E0C'/%3E%3Cg transform='translate(32,32) rotate(45)'%3E%3Crect x='-16' y='-16' width='32' height='32' rx='4' fill='%238B6F47'/%3E%3C/g%3E%3Cpath d='M22 32 L32 20 L42 32 L32 44 Z' fill='%230F0E0C' opacity='0.6'/%3E%3Cpath d='M26 32 L32 25 L38 32 L32 39 Z' fill='%23E8DDD0' opacity='0.9'/%3E%3C/svg%3E">
+    <meta name="theme-color" content="#8B6F47">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Manrope', 'sans-serif'] },
+                    colors: {
+                        brand: '#8B6F47',
+                        'brand-light': '#A68B5B',
+                        'brand-dark': '#5C4A2E',
+                        forest: '#2D4A3E',
+                        'forest-light': '#3D6B5A',
+                        sage: '#7A8B6F',
+                        cream: '#F5F0E8',
+                        warm: '#E8DDD0',
+                        charcoal: '#1A1A18',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::selection {
+            background: #8B6F47;
+            color: #fff;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0F0E0C;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #3D3529;
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #8B6F47;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 15px rgba(37, 211, 102, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 30px rgba(37, 211, 102, 0.6);
+            }
+        }
+
+        .whatsapp-float {
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes hero-zoom {
+            0% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1.02);
+            }
+        }
+
+        .hero-bg-zoom {
+            animation: hero-zoom 30s ease-out forwards;
+        }
+
+        @keyframes hero-shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        .hero-shimmer {
+            background: linear-gradient(90deg, transparent 0%, rgba(139, 111, 71, 0.05) 50%, transparent 100%);
+            background-size: 200% 100%;
+            animation: hero-shimmer 6s ease-in-out infinite;
+        }
+
+        @keyframes float-badge {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        .float-badge {
+            animation: float-badge 5s ease-in-out infinite;
+        }
+
+        @keyframes text-reveal {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .text-reveal-1 {
+            animation: text-reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+        }
+
+        .text-reveal-2 {
+            animation: text-reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both;
+        }
+
+        .text-reveal-3 {
+            animation: text-reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.7s both;
+        }
+
+        .text-reveal-4 {
+            animation: text-reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.9s both;
+        }
+
+        .ba-slider {
+            position: relative;
+            overflow: hidden;
+            cursor: ew-resize;
+            user-select: none;
+        }
+
+        .ba-slider .ba-after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .ba-slider .ba-handle {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 3px;
+            height: 100%;
+            background: #fff;
+            transform: translateX(-50%);
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .ba-slider .ba-handle::after {
+            content: '⟨ ⟩';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 44px;
+            height: 44px;
+            background: #8B6F47;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .lightbox {
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .lightbox.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .toast {
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .nav-blur {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .counter {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .svc-card img {
+            transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .svc-card:hover img {
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+
+<body class="bg-[#0F0E0C] text-white font-sans">
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar"
+        class="fixed top-0 w-full z-50 nav-blur bg-[#0F0E0C]/80 border-b border-white/5 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-brand rounded-sm flex items-center justify-center rotate-45">
+                    <span class="iconify text-white text-sm -rotate-45" data-icon="mdi:floor-plan"></span>
+                </div>
+                <div>
+                    <span class="font-bold text-base tracking-tight">Creative</span>
+                    <span class="font-light text-base tracking-tight text-brand ml-1">Interior Decor</span>
+                </div>
+            </a>
+            <div class="hidden lg:flex items-center gap-8">
+                <a href="#about" class="text-sm text-slate-400 hover:text-white transition-colors">About</a>
+                <a href="#services" class="text-sm text-slate-400 hover:text-white transition-colors">Services</a>
+                <a href="#portfolio" class="text-sm text-slate-400 hover:text-white transition-colors">Portfolio</a>
+                <a href="#3d-design" class="text-sm text-slate-400 hover:text-white transition-colors">3D Design</a>
+                <a href="#process" class="text-sm text-slate-400 hover:text-white transition-colors">Process</a>
+
+                <a href="#faq" class="text-sm text-slate-400 hover:text-white transition-colors">FAQ</a>
+                <a href="#contact" class="text-sm text-slate-400 hover:text-white transition-colors">Contact</a>
+            </div>
+            <div class="hidden lg:flex items-center gap-3">
+                <a href="tel:+919717218294"
+                    class="px-4 py-2 border border-brand/30 hover:border-brand text-brand text-xs font-bold uppercase tracking-widest rounded-full transition-all flex items-center gap-2">
+                    <span class="iconify" data-icon="mdi:phone"></span> Call Now
+                </a>
+                <a href="#contact"
+                    class="px-5 py-2 bg-brand hover:bg-brand-light text-white text-xs font-bold uppercase tracking-widest rounded-full transition-all">Free
+                    Consultation</a>
+            </div>
+            <button id="menuBtn" class="lg:hidden text-white"><span class="iconify text-2xl"
+                    data-icon="mdi:menu"></span></button>
+        </div>
+        <div id="mobileMenu" class="lg:hidden hidden bg-[#151412] border-t border-white/5 px-6 py-6 space-y-4">
+            <a href="#about" class="block text-sm text-slate-400 mobile-link">About</a>
+            <a href="#services" class="block text-sm text-slate-400 mobile-link">Services</a>
+            <a href="#portfolio" class="block text-sm text-slate-400 mobile-link">Portfolio</a>
+            <a href="#3d-design" class="block text-sm text-slate-400 mobile-link">3D Design</a>
+            <a href="#process" class="block text-sm text-slate-400 mobile-link">Process</a>
+
+            <a href="#faq" class="block text-sm text-slate-400 mobile-link">FAQ</a>
+            <a href="#contact" class="block text-sm text-slate-400 mobile-link">Contact</a>
+            <a href="tel:+919717218294"
+                class="block px-5 py-3 border border-brand/30 text-brand text-xs font-bold uppercase tracking-widest rounded-full text-center mt-4 mobile-link">Call
+                Now</a>
+            <a href="#contact"
+                class="block px-5 py-3 bg-brand text-white text-xs font-bold uppercase tracking-widest rounded-full text-center mobile-link">Free
+                Consultation</a>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="relative h-screen min-h-[800px] flex items-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="hero_image.png" alt="Creative Interior Decor"
+                class="w-full h-full object-cover object-center hero-bg-zoom">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#0F0E0C]/93 via-[#0F0E0C]/65 to-[#0F0E0C]/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/15 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0F0E0C]/50 via-transparent to-transparent"></div>
+        <div class="absolute top-1/3 left-1/4 w-[500px] h-[500px] rounded-full bg-brand/[0.04] blur-3xl"></div>
+        <div class="absolute inset-0 hero-shimmer"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+            <div class="max-w-2xl">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand/20 bg-brand/5 backdrop-blur-md mb-8 text-reveal-1">
+                    <span class="w-2 h-2 bg-brand rounded-full animate-pulse"></span>
+                    <span class="text-xs font-bold uppercase tracking-widest text-warm">Award-Winning Interior
+                        Design</span>
+                </div>
+                <h1
+                    class="text-4xl md:text-6xl lg:text-[4.5rem] font-bold tracking-tighter leading-[0.95] mb-6 text-reveal-2">
+                    Modern Interior<br>Design for<br>
+                    <span
+                        class="bg-gradient-to-r from-brand-light via-warm to-brand-light bg-clip-text text-transparent">Homes
+                        & Offices</span>
+                </h1>
+                <p class="text-lg md:text-xl text-warm/45 font-light leading-relaxed mb-10 max-w-lg text-reveal-3">
+                    Transform your spaces into stunning, functional works of art. From concept to completion — we design
+                    interiors that inspire.</p>
+                <div class="flex flex-col sm:flex-row items-start gap-4 text-reveal-4">
+                    <a href="#contact"
+                        class="px-8 py-4 bg-brand hover:bg-brand-light text-white text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-150 hover:scale-105 flex items-center gap-2">
+                        <span class="iconify" data-icon="mdi:calendar-check"></span> Book Free Consultation
+                    </a>
+                    <a href="https://wa.me/919717218294?text=Hi%20Creative%20Interior%20Decor!%20I'm%20interested%20in%20your%20interior%20design%20services."
+                        target="_blank"
+                        class="px-8 py-4 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-150 hover:scale-105 flex items-center gap-2">
+                        <span class="iconify text-lg" data-icon="mdi:whatsapp"></span> WhatsApp Us
+                    </a>
+                </div>
+                <div class="mt-14 flex flex-wrap items-center gap-8 text-warm/30 text-sm text-reveal-4">
+                    <div class="flex items-center gap-2"><span class="iconify text-brand"
+                            data-icon="mdi:check-decagram"></span><span>15+ Years Experience</span></div>
+                    <div class="flex items-center gap-2"><span class="iconify text-brand"
+                            data-icon="mdi:home-city"></span><span>500+ Projects Done</span></div>
+                    <div class="flex items-center gap-2"><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span>4.9★ Google Rated</span></div>
+                </div>
+            </div>
+            <div class="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 float-badge">
+                <div class="bg-[#0F0E0C]/50 backdrop-blur-xl rounded-3xl border border-brand/10 p-6 w-60">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-full bg-brand/15 flex items-center justify-center"><span
+                                class="iconify text-brand text-lg" data-icon="mdi:palette-swatch-variant"></span></div>
+                        <div>
+                            <div class="text-sm font-bold">Design Preview</div>
+                            <div class="text-[10px] text-warm/35 uppercase tracking-widest">3D Renders</div>
+                        </div>
+                    </div>
+                    <p class="text-warm/35 text-xs font-light leading-relaxed">See your space come alive with
+                        photorealistic 3D renders before execution.</p>
+                    <a href="#3d-design"
+                        class="mt-4 inline-flex items-center gap-1 text-brand text-xs font-bold uppercase tracking-widest hover:text-brand-light transition-colors">View
+                        Samples <span class="iconify" data-icon="mdi:arrow-right"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2">
+            <span class="text-[10px] font-bold uppercase tracking-widest text-warm/20">Scroll</span>
+            <div class="w-5 h-8 rounded-full border border-warm/15 flex justify-center pt-1.5">
+                <div class="w-1 h-2 rounded-full bg-brand animate-bounce"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STATS BAR ========== -->
+    <div class="py-8 border-y border-brand/10 bg-[#151412]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-brand counter">500+</div>
+                    <div class="text-xs uppercase tracking-widest text-warm/40 mt-2">Projects Completed</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-brand counter">15+</div>
+                    <div class="text-xs uppercase tracking-widest text-warm/40 mt-2">Years Experience</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-brand counter">350+</div>
+                    <div class="text-xs uppercase tracking-widest text-warm/40 mt-2">Happy Clients</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-brand counter">25+</div>
+                    <div class="text-xs uppercase tracking-widest text-warm/40 mt-2">Design Awards</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center reveal">
+                <div class="relative">
+                    <img src="service_office.png" alt="Creative Interior Decor Studio"
+                        class="rounded-3xl w-full object-cover h-[550px]">
+                    <div class="absolute -bottom-6 -left-6 bg-forest rounded-2xl p-6 text-center">
+                        <div class="text-3xl font-bold text-white">15+</div>
+                        <div class="text-[10px] uppercase tracking-widest mt-1 text-warm/70">Years of Excellence</div>
+                    </div>
+                    <div class="absolute -top-4 -right-4 w-24 h-24 border-2 border-brand/20 rounded-2xl"></div>
+                </div>
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand">About Us</span>
+                    <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">We Design Spaces<br>That Tell Your
+                        Story</h2>
+                    <p class="text-warm/50 font-light mt-6 leading-relaxed">At Creative Interior Decor, we believe every
+                        space has a soul waiting to be unveiled. With over 15 years of experience in residential,
+                        commercial, and office interior design, we craft environments that blend aesthetics with
+                        functionality.</p>
+                    <p class="text-warm/50 font-light mt-4 leading-relaxed">Our design philosophy is rooted in
+                        minimalism, sustainability, and timeless elegance. From luxurious living rooms to efficient
+                        office layouts — we bring your vision to life with precision and passion.</p>
+                    <div class="grid grid-cols-2 gap-5 mt-8">
+                        <div class="flex items-start gap-3"><span class="iconify text-brand text-xl mt-0.5"
+                                data-icon="mdi:map-marker"></span>
+                            <div>
+                                <div class="font-semibold text-sm">Based in Delhi NCR</div>
+                                <div class="text-warm/35 text-xs mt-0.5">Pan India Projects</div>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3"><span class="iconify text-brand text-xl mt-0.5"
+                                data-icon="mdi:palette-swatch"></span>
+                            <div>
+                                <div class="font-semibold text-sm">Modern & Minimal</div>
+                                <div class="text-warm/35 text-xs mt-0.5">Design Style</div>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3"><span class="iconify text-brand text-xl mt-0.5"
+                                data-icon="mdi:shield-check"></span>
+                            <div>
+                                <div class="font-semibold text-sm">Quality Assured</div>
+                                <div class="text-warm/35 text-xs mt-0.5">Premium Materials</div>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3"><span class="iconify text-brand text-xl mt-0.5"
+                                data-icon="mdi:clock-fast"></span>
+                            <div>
+                                <div class="font-semibold text-sm">On-Time Delivery</div>
+                                <div class="text-warm/35 text-xs mt-0.5">45-Day Promise</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES — REDESIGNED ========== -->
+    <section id="services" class="py-24 px-6 bg-[#151412]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand">Our Services</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">What We Design</h2>
+                <p class="text-warm/50 mt-4 max-w-2xl mx-auto font-light">Comprehensive interior design solutions for
+                    every space — crafted with precision and passion.</p>
+            </div>
+
+            <!-- Featured Services Grid — Bento Layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4 reveal">
+
+                <!-- 1. Home Interior — LARGE (2 col, 2 row) -->
+                <div
+                    class="svc-card group relative rounded-3xl overflow-hidden md:col-span-2 md:row-span-2 h-[400px] md:h-auto cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="https://z-cdn-media.chatglm.cn/files/12d18c09-e7b9-497b-bb96-63221776cf44.png?auth_key=1878584022-8d44a9a942244e10be0215efea596ea2-0-1f350483f9b660d0a2d4eede8cac8044"
+                        alt="Home Interior Design"
+                        class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-75">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/40 to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#0F0E0C]/60 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-8">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand/20 border border-brand/20 w-fit mb-4">
+                            <span class="iconify text-brand text-sm" data-icon="mdi:home-variant"></span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Most Popular</span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-bold mb-2">Home Interior Design</h3>
+                        <p class="text-warm/50 font-light max-w-md leading-relaxed">Complete home interiors from concept
+                            to execution. Living rooms, bedrooms, kitchens — designed to reflect your personality and
+                            lifestyle.</p>
+                        <a href="#contact"
+                            class="mt-5 inline-flex items-center gap-2 text-brand text-xs font-bold uppercase tracking-widest hover:text-brand-light transition-colors group/link">
+                            Get Started <span class="iconify group-hover/link:translate-x-1 transition-transform"
+                                data-icon="mdi:arrow-right"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 2. Living Room Design -->
+                <div
+                    class="svc-card group relative rounded-3xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="https://z-cdn-media.chatglm.cn/files/568f62ba-a5c7-415e-b677-65a683b90c16.png?auth_key=1878584022-7e0f75f001fa463196ad0a0f0053541b-0-6c18decb06bbb2faf98204744a416252"
+                        alt="Living Room Design"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-70">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-6">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:sofa"></span>
+                        <h3 class="text-lg font-bold">Living Room Design</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">False ceilings, TV units & lighting</p>
+                    </div>
+                </div>
+
+                <!-- 3. Kitchen Interior -->
+                <div
+                    class="svc-card group relative rounded-3xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="https://z-cdn-media.chatglm.cn/files/207e00ab-1f84-444d-8051-e0c904a0f320.png?auth_key=1878584022-cee9146c31524a2ea082f292529fad00-0-89c2ce3262b3fb6080eb0fececb2119b"
+                        alt="Kitchen Interior"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-70">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-6">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:stove"></span>
+                        <h3 class="text-lg font-bold">Kitchen Interior</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">Modular kitchens & smart storage</p>
+                    </div>
+                </div>
+
+                <!-- 4. Modular Furniture — WIDE (2 col) -->
+                <div
+                    class="svc-card group relative rounded-3xl overflow-hidden h-[280px] md:col-span-2 cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="https://z-cdn-media.chatglm.cn/files/504b5fb2-b239-4676-a268-349b782b1576.png?auth_key=1878584022-555a6d704f05478db8ff6f420b2033c2-0-45dcc1f7ad6d593ac32ad53c21d8a400"
+                        alt="Modular Furniture"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-70">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#0F0E0C]/50 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-6">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:drawer"></span>
+                        <h3 class="text-lg font-bold">Modular Furniture</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1 max-w-sm">Custom wardrobes, TV units, bookshelves
+                            & storage solutions built to fit your space perfectly.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Services — Image Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 reveal">
+                <div
+                    class="svc-card group relative rounded-2xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="service_bedroom.png" alt="Bedroom Interior"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-75">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-5">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:bed-king"></span>
+                        <h3 class="text-sm font-bold">Bedroom Interior</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">Wardrobes, lighting & textures</p>
+                    </div>
+                </div>
+                <div
+                    class="svc-card group relative rounded-2xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="service_office.png" alt="Office Interior"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-75">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-5">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:office-building"></span>
+                        <h3 class="text-sm font-bold">Office Interior</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">Cabins, conference & reception</p>
+                    </div>
+                </div>
+                <div
+                    class="svc-card group relative rounded-2xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="render_3d_living.png" alt="3D Design"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-75">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-5">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:cube-scan"></span>
+                        <h3 class="text-sm font-bold">2D / 3D Design</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">Floor plans & photorealistic renders</p>
+                    </div>
+                </div>
+                <div
+                    class="svc-card group relative rounded-2xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
+                        alt="Renovation Work"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-75">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-5">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:hammer-wrench"></span>
+                        <h3 class="text-sm font-bold">Renovation Work</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">Civil, plumbing & finishing</p>
+                    </div>
+                </div>
+                <div
+                    class="svc-card group relative rounded-2xl overflow-hidden h-[280px] cursor-pointer border border-brand/10 hover:border-brand/25 transition-all duration-300">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80"
+                        alt="Space Planning"
+                        class="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-75">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-[#0F0E0C]/30 to-transparent"></div>
+                    <div class="relative h-full flex flex-col justify-end p-5">
+                        <span class="iconify text-brand text-2xl mb-2" data-icon="mdi:floor-plan"></span>
+                        <h3 class="text-sm font-bold">Space Planning</h3>
+                        <p class="text-warm/45 text-xs font-light mt-1">Optimized layouts & flow</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA under services -->
+            <div class="mt-12 text-center reveal">
+                <a href="#contact"
+                    class="inline-flex items-center gap-2 px-8 py-4 bg-brand hover:bg-brand-light text-white text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-150 hover:scale-105">
+                    <span class="iconify" data-icon="mdi:calendar-check"></span>
+                    Discuss Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <section id="portfolio" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand">Our Portfolio</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">Completed Projects</h2>
+                <p class="text-warm/50 mt-4 max-w-2xl mx-auto font-light">Every project tells a story. Browse our recent
+                    work across homes, offices, and commercial spaces.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-3 mb-10 reveal">
+                <button onclick="filterPortfolio('all')"
+                    class="portfolio-filter active px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-brand/20 bg-brand text-white transition-all"
+                    data-filter="all">All</button>
+                <button onclick="filterPortfolio('home')"
+                    class="portfolio-filter px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-brand/10 bg-brand/5 text-warm/50 hover:bg-brand/10 transition-all"
+                    data-filter="home">Home</button>
+                <button onclick="filterPortfolio('kitchen')"
+                    class="portfolio-filter px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-brand/10 bg-brand/5 text-warm/50 hover:bg-brand/10 transition-all"
+                    data-filter="kitchen">Kitchen</button>
+                <button onclick="filterPortfolio('bedroom')"
+                    class="portfolio-filter px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-brand/10 bg-brand/5 text-warm/50 hover:bg-brand/10 transition-all"
+                    data-filter="bedroom">Bedroom</button>
+                <button onclick="filterPortfolio('office')"
+                    class="portfolio-filter px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-brand/10 bg-brand/5 text-warm/50 hover:bg-brand/10 transition-all"
+                    data-filter="office">Office</button>
+            </div>
+            <div id="portfolioGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
+                <!-- HOME -->
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="home" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Modern Living Room Delhi">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Residential</span>
+                        <h3 class="text-lg font-bold mt-1">Modern Living Room — Delhi</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="home" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Luxury Apartment South Delhi">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Residential</span>
+                        <h3 class="text-lg font-bold mt-1">Luxury Apartment — South Delhi</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="home" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1617104678098-de229db51175?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Contemporary Villa Noida">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Residential</span>
+                        <h3 class="text-lg font-bold mt-1">Contemporary Villa — Noida</h3>
+                    </div>
+                </div>
+                <!-- KITCHEN -->
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="kitchen" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Modular Kitchen Gurgaon">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Kitchen</span>
+                        <h3 class="text-lg font-bold mt-1">Modular Kitchen — Gurgaon</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="kitchen" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1565183997392-2f6f122e5912?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="L-Shaped Kitchen Faridabad">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Kitchen</span>
+                        <h3 class="text-lg font-bold mt-1">L-Shaped Kitchen — Faridabad</h3>
+                    </div>
+                </div>
+                <!-- BEDROOM -->
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="bedroom" onclick="openLightbox(this)">
+                    <img src="service_bedroom.png"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Master Bedroom Noida">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Bedroom</span>
+                        <h3 class="text-lg font-bold mt-1">Master Bedroom — Noida</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="bedroom" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Kids Bedroom Dwarka">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Bedroom</span>
+                        <h3 class="text-lg font-bold mt-1">Kids Bedroom — Dwarka</h3>
+                    </div>
+                </div>
+                <!-- OFFICE -->
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="office" onclick="openLightbox(this)">
+                    <img src="service_office.png"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Corporate Office Dwarka">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Commercial</span>
+                        <h3 class="text-lg font-bold mt-1">Corporate Office — Dwarka</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="office" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Startup Office Noida">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Commercial</span>
+                        <h3 class="text-lg font-bold mt-1">Startup Office — Noida</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="office" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Reception Lobby Gurgaon">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Commercial</span>
+                        <h3 class="text-lg font-bold mt-1">Reception Lobby — Gurgaon</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="home" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Penthouse Lounge Greater Noida">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Residential</span>
+                        <h3 class="text-lg font-bold mt-1">Penthouse Lounge — Greater Noida</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item group cursor-pointer relative rounded-3xl overflow-hidden aspect-[4/3]"
+                    data-category="kitchen" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        alt="Open Kitchen Delhi NCR">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Kitchen</span>
+                        <h3 class="text-lg font-bold mt-1">Open Kitchen — Delhi NCR</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BEFORE & AFTER ========== -->
+    <section class="py-24 px-6 bg-[#151412]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand">Transformations</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">Before & After</h2>
+                <p class="text-warm/50 mt-4 max-w-2xl mx-auto font-light">Drag the slider to see the dramatic
+                    transformations we've created.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 reveal">
+                <div>
+                    <div class="ba-slider rounded-3xl aspect-[4/3] relative" data-slider>
+                        <img src="living_room_after_separated.png" class="w-full h-full object-cover rounded-3xl"
+                            alt="After">
+                        <div class="ba-after rounded-3xl"><img src="living_room_before_separated.png"
+                                class="w-full h-full object-cover rounded-3xl" alt="Before"></div>
+                        <div class="ba-handle"></div>
+                        <div
+                            class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#0F0E0C]/70 text-xs font-bold uppercase tracking-widest backdrop-blur-md text-warm">
+                            Before</div>
+                        <div
+                            class="absolute top-4 right-4 px-3 py-1 rounded-full bg-brand/80 text-xs font-bold uppercase tracking-widest backdrop-blur-md text-white">
+                            After</div>
+                    </div>
+                    <p class="text-center text-warm/40 text-sm mt-3">Living Room Transformation</p>
+                </div>
+                <div>
+                    <div class="ba-slider rounded-3xl aspect-[4/3] relative" data-slider>
+                        <img src="after_image_separated.png" class="w-full h-full object-cover rounded-3xl" alt="After">
+                        <div class="ba-after rounded-3xl"><img src="before_image_separated.png"
+                                class="w-full h-full object-cover rounded-3xl" alt="Before"></div>
+                        <div class="ba-handle"></div>
+                        <div
+                            class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#0F0E0C]/70 text-xs font-bold uppercase tracking-widest backdrop-blur-md text-warm">
+                            Before</div>
+                        <div
+                            class="absolute top-4 right-4 px-3 py-1 rounded-full bg-brand/80 text-xs font-bold uppercase tracking-widest backdrop-blur-md text-white">
+                            After</div>
+                    </div>
+                    <p class="text-center text-warm/40 text-sm mt-3">Kitchen Transformation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 3D DESIGN ========== -->
+    <section id="3d-design" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand">Design Preview</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">3D Design Renders</h2>
+                <p class="text-warm/50 mt-4 max-w-2xl mx-auto font-light">See your space come alive before execution
+                    begins.</p>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 reveal">
+                <div class="group relative rounded-2xl overflow-hidden aspect-square cursor-pointer"
+                    onclick="openLightbox(this)">
+                    <img src="render_3d_living.png"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Living Room Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Living Room</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-2xl overflow-hidden aspect-square cursor-pointer"
+                    onclick="openLightbox(this)">
+                    <img src="render_3d_kitchen.png"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Kitchen Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Modular Kitchen</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-2xl overflow-hidden aspect-square cursor-pointer"
+                    onclick="openLightbox(this)">
+                    <img src="render_3d_bedroom.png"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Bedroom Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Master Bedroom</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-2xl overflow-hidden aspect-square cursor-pointer"
+                    onclick="openLightbox(this)">
+                    <img src="service_office.png"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Office Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Corporate Office</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Extra 3D renders row -->
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 reveal mt-4">
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] cursor-pointer"
+                    onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Dining Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Dining Area</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] cursor-pointer"
+                    onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Lounge Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Lounge Area</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] cursor-pointer col-span-2 lg:col-span-1"
+                    onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1617104678098-de229db51175?w=800&q=80"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        alt="3D Villa Render">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0F0E0C]/80 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4"><span
+                            class="px-2 py-1 rounded bg-brand/80 text-[10px] font-bold uppercase tracking-widest">3D
+                            Render</span>
+                        <p class="text-sm font-semibold mt-2">Villa Interior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section id="process" class="py-24 px-6 bg-[#151412]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand">How We Work</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">Our Design Process</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
+                <div
+                    class="relative rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-5xl font-bold text-brand/10 absolute top-4 right-6">01</div>
+                    <div class="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center mb-5"><span
+                            class="iconify text-brand text-xl" data-icon="mdi:phone-message"></span></div>
+                    <h3 class="text-lg font-bold mb-2">Free Consultation</h3>
+                    <p class="text-warm/45 font-light text-sm leading-relaxed">Share your requirements, budget, and
+                        vision. We listen and understand your lifestyle.</p>
+                </div>
+                <div
+                    class="relative rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-5xl font-bold text-brand/10 absolute top-4 right-6">02</div>
+                    <div class="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center mb-5"><span
+                            class="iconify text-brand text-xl" data-icon="mdi:map-marker-radius"></span></div>
+                    <h3 class="text-lg font-bold mb-2">Site Visit</h3>
+                    <p class="text-warm/45 font-light text-sm leading-relaxed">Our team visits your space, takes
+                        measurements, and assesses requirements.</p>
+                </div>
+                <div
+                    class="relative rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-5xl font-bold text-brand/10 absolute top-4 right-6">03</div>
+                    <div class="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center mb-5"><span
+                            class="iconify text-brand text-xl" data-icon="mdi:pencil-ruler"></span></div>
+                    <h3 class="text-lg font-bold mb-2">Design Planning</h3>
+                    <p class="text-warm/45 font-light text-sm leading-relaxed">Layout plans, mood boards, and design
+                        concepts tailored to your taste.</p>
+                </div>
+                <div
+                    class="relative rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-5xl font-bold text-brand/10 absolute top-4 right-6">04</div>
+                    <div class="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center mb-5"><span
+                            class="iconify text-brand text-xl" data-icon="mdi:cube-scan"></span></div>
+                    <h3 class="text-lg font-bold mb-2">3D Design</h3>
+                    <p class="text-warm/45 font-light text-sm leading-relaxed">Photorealistic 3D renders to walk through
+                        your space virtually.</p>
+                </div>
+                <div
+                    class="relative rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-5xl font-bold text-brand/10 absolute top-4 right-6">05</div>
+                    <div class="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center mb-5"><span
+                            class="iconify text-brand text-xl" data-icon="mdi:format-paint"></span></div>
+                    <h3 class="text-lg font-bold mb-2">Material Selection</h3>
+                    <p class="text-warm/45 font-light text-sm leading-relaxed">Choose premium materials, finishes, and
+                        fabrics at our studio.</p>
+                </div>
+                <div
+                    class="relative rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-5xl font-bold text-brand/10 absolute top-4 right-6">06</div>
+                    <div class="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center mb-5"><span
+                            class="iconify text-brand text-xl" data-icon="mdi:key-variant"></span></div>
+                    <h3 class="text-lg font-bold mb-2">Execution & Handover</h3>
+                    <p class="text-warm/45 font-light text-sm leading-relaxed">Skilled execution, quality check, and
+                        hassle-free handover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="py-24 px-6 bg-[#151412]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 reveal"><span
+                    class="text-xs font-bold uppercase tracking-widest text-brand">Client Reviews</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">What Our Clients Say</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6 reveal">
+                <div
+                    class="rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex gap-1 mb-4"><span class="iconify text-brand" data-icon="mdi:star"></span><span
+                            class="iconify text-brand" data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span class="iconify text-brand" data-icon="mdi:star"></span>
+                    </div>
+                    <p class="text-warm/55 font-light leading-relaxed">"Very professional work and beautiful design. The
+                        3D renders were exactly how the final result turned out. On-time delivery!"</p>
+                    <div class="flex items-center gap-3 mt-6 pt-6 border-t border-brand/10">
+                        <div
+                            class="w-10 h-10 rounded-full bg-forest/30 flex items-center justify-center text-brand font-bold text-sm">
+                            RK</div>
+                        <div>
+                            <div class="font-semibold text-sm">Rajesh Kumar</div>
+                            <div class="text-warm/35 text-xs">3BHK, Dwarka</div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex gap-1 mb-4"><span class="iconify text-brand" data-icon="mdi:star"></span><span
+                            class="iconify text-brand" data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span class="iconify text-brand" data-icon="mdi:star"></span>
+                    </div>
+                    <p class="text-warm/55 font-light leading-relaxed">"Our modular kitchen turned out absolutely
+                        stunning! The team was patient and the material quality is top-notch."</p>
+                    <div class="flex items-center gap-3 mt-6 pt-6 border-t border-brand/10">
+                        <div
+                            class="w-10 h-10 rounded-full bg-forest/30 flex items-center justify-center text-brand font-bold text-sm">
+                            PA</div>
+                        <div>
+                            <div class="font-semibold text-sm">Priya Agarwal</div>
+                            <div class="text-warm/35 text-xs">Kitchen, Gurgaon</div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex gap-1 mb-4"><span class="iconify text-brand" data-icon="mdi:star"></span><span
+                            class="iconify text-brand" data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star"></span><span class="iconify text-brand"
+                            data-icon="mdi:star-half-full"></span></div>
+                    <p class="text-warm/55 font-light leading-relaxed">"Office interior was excellent. Space planning
+                        was spot-on and the team managed everything seamlessly."</p>
+                    <div class="flex items-center gap-3 mt-6 pt-6 border-t border-brand/10">
+                        <div
+                            class="w-10 h-10 rounded-full bg-forest/30 flex items-center justify-center text-brand font-bold text-sm">
+                            SM</div>
+                        <div>
+                            <div class="font-semibold text-sm">Sandeep Mehta</div>
+                            <div class="text-warm/35 text-xs">Office, Noida</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section id="faq" class="py-24 px-6">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-16 reveal"><span
+                    class="text-xs font-bold uppercase tracking-widest text-brand">FAQ</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">Common Questions</h2>
+            </div>
+            <div class="space-y-3 reveal">
+                <div class="faq-item rounded-2xl border border-brand/10 overflow-hidden"><button
+                        onclick="toggleFaq(this)"
+                        class="w-full flex items-center justify-between p-6 text-left hover:bg-brand/[0.03] transition-colors"><span
+                            class="font-semibold pr-4">Do you provide free consultation?</span><span
+                            class="iconify text-xl text-brand flex-shrink-0 faq-icon transition-transform duration-300"
+                            data-icon="mdi:plus"></span></button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300">
+                        <p class="px-6 pb-6 text-warm/45 font-light">Yes! We offer a completely free initial
+                            consultation and free site visit to assess your space and understand the scope.</p>
+                    </div>
+                </div>
+                <div class="faq-item rounded-2xl border border-brand/10 overflow-hidden"><button
+                        onclick="toggleFaq(this)"
+                        class="w-full flex items-center justify-between p-6 text-left hover:bg-brand/[0.03] transition-colors"><span
+                            class="font-semibold pr-4">How much does interior design cost?</span><span
+                            class="iconify text-xl text-brand flex-shrink-0 faq-icon transition-transform duration-300"
+                            data-icon="mdi:plus"></span></button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300">
+                        <p class="px-6 pb-6 text-warm/45 font-light">Packages start from ₹1,499/sq.ft. (basic) to
+                            ₹3,499/sq.ft. (luxury). We provide a detailed quote after the site visit.</p>
+                    </div>
+                </div>
+                <div class="faq-item rounded-2xl border border-brand/10 overflow-hidden"><button
+                        onclick="toggleFaq(this)"
+                        class="w-full flex items-center justify-between p-6 text-left hover:bg-brand/[0.03] transition-colors"><span
+                            class="font-semibold pr-4">Do you provide 3D design?</span><span
+                            class="iconify text-xl text-brand flex-shrink-0 faq-icon transition-transform duration-300"
+                            data-icon="mdi:plus"></span></button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300">
+                        <p class="px-6 pb-6 text-warm/45 font-light">Absolutely! We provide photorealistic 3D renders
+                            with unlimited revisions until you're fully satisfied.</p>
+                    </div>
+                </div>
+                <div class="faq-item rounded-2xl border border-brand/10 overflow-hidden"><button
+                        onclick="toggleFaq(this)"
+                        class="w-full flex items-center justify-between p-6 text-left hover:bg-brand/[0.03] transition-colors"><span
+                            class="font-semibold pr-4">How long does one project take?</span><span
+                            class="iconify text-xl text-brand flex-shrink-0 faq-icon transition-transform duration-300"
+                            data-icon="mdi:plus"></span></button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300">
+                        <p class="px-6 pb-6 text-warm/45 font-light">Single room: 2–3 weeks. Kitchen: 3–4 weeks. Full
+                            home: 45–75 days. We commit to timelines.</p>
+                    </div>
+                </div>
+                <div class="faq-item rounded-2xl border border-brand/10 overflow-hidden"><button
+                        onclick="toggleFaq(this)"
+                        class="w-full flex items-center justify-between p-6 text-left hover:bg-brand/[0.03] transition-colors"><span
+                            class="font-semibold pr-4">Do you handle furniture also?</span><span
+                            class="iconify text-xl text-brand flex-shrink-0 faq-icon transition-transform duration-300"
+                            data-icon="mdi:plus"></span></button>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300">
+                        <p class="px-6 pb-6 text-warm/45 font-light">Yes! We manufacture custom modular furniture in our
+                            own factory — everything with warranty.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="py-24 px-6 bg-[#151412] relative">
+        <div class="absolute inset-0 bg-gradient-to-b from-brand/5 to-transparent pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto relative">
+            <div class="text-center mb-16 reveal"><span
+                    class="text-xs font-bold uppercase tracking-widest text-brand">Get In Touch</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">Book Free Consultation</h2>
+            </div>
+            <div class="grid md:grid-cols-5 gap-8 reveal">
+                <div class="md:col-span-3 rounded-3xl border border-brand/10 bg-brand/[0.02] p-8 md:p-12">
+                    <form id="contactForm" onsubmit="handleContact(event)">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div><label class="text-xs font-bold uppercase tracking-widest text-warm/45 mb-2 block">Your
+                                    Name *</label><input type="text" name="name" required
+                                    class="w-full bg-white/5 border border-brand/10 rounded-xl px-4 py-3.5 text-white text-sm focus:outline-none focus:border-brand/40 transition-colors placeholder:text-warm/20"
+                                    placeholder="Enter your name"></div>
+                            <div><label
+                                    class="text-xs font-bold uppercase tracking-widest text-warm/45 mb-2 block">Phone
+                                    Number *</label><input type="tel" name="phone" required
+                                    class="w-full bg-white/5 border border-brand/10 rounded-xl px-4 py-3.5 text-white text-sm focus:outline-none focus:border-brand/40 transition-colors placeholder:text-warm/20"
+                                    placeholder="+91 98765 43210"></div>
+                            <div><label
+                                    class="text-xs font-bold uppercase tracking-widest text-warm/45 mb-2 block">Email</label><input
+                                    type="email" name="email"
+                                    class="w-full bg-white/5 border border-brand/10 rounded-xl px-4 py-3.5 text-white text-sm focus:outline-none focus:border-brand/40 transition-colors placeholder:text-warm/20"
+                                    placeholder="you@email.com"></div>
+                            <div><label
+                                    class="text-xs font-bold uppercase tracking-widest text-warm/45 mb-2 block">Location</label><input
+                                    type="text" name="location"
+                                    class="w-full bg-white/5 border border-brand/10 rounded-xl px-4 py-3.5 text-white text-sm focus:outline-none focus:border-brand/40 transition-colors placeholder:text-warm/20"
+                                    placeholder="City / Area"></div>
+                            <div class="md:col-span-2"><label
+                                    class="text-xs font-bold uppercase tracking-widest text-warm/45 mb-2 block">Type of
+                                    Project *</label><select name="project" required
+                                    class="w-full bg-white/5 border border-brand/10 rounded-xl px-4 py-3.5 text-white text-sm focus:outline-none focus:border-brand/40 transition-colors appearance-none cursor-pointer">
+                                    <option value="" class="bg-[#1a1917]">Select project type</option>
+                                    <option value="Full Home Interior" class="bg-[#1a1917]">Full Home Interior</option>
+                                    <option value="Kitchen Interior" class="bg-[#1a1917]">Kitchen Interior</option>
+                                    <option value="Bedroom Interior" class="bg-[#1a1917]">Bedroom Interior</option>
+                                    <option value="Living Room Design" class="bg-[#1a1917]">Living Room Design</option>
+                                    <option value="Office Interior" class="bg-[#1a1917]">Office Interior</option>
+                                    <option value="Renovation" class="bg-[#1a1917]">Renovation Work</option>
+                                    <option value="Other" class="bg-[#1a1917]">Other</option>
+                                </select></div>
+                        </div>
+                        <div class="mt-6"><label
+                                class="text-xs font-bold uppercase tracking-widest text-warm/45 mb-2 block">Message</label><textarea
+                                name="message" rows="3"
+                                class="w-full bg-white/5 border border-brand/10 rounded-xl px-4 py-3.5 text-white text-sm focus:outline-none focus:border-brand/40 transition-colors placeholder:text-warm/20 resize-none"
+                                placeholder="Tell us about your project, budget, timeline..."></textarea></div>
+                        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                            <button type="submit"
+                                class="flex-1 px-8 py-4 bg-brand hover:bg-brand-light text-white text-xs font-bold uppercase tracking-widest rounded-full transition-all hover:scale-105 flex items-center justify-center gap-2"><span
+                                    class="iconify" data-icon="mdi:send"></span> Send Enquiry</button>
+                            <button type="button" onclick="bookViaWhatsApp()"
+                                class="flex-1 px-8 py-4 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold uppercase tracking-widest rounded-full transition-all hover:scale-105 flex items-center justify-center gap-2"><span
+                                    class="iconify text-lg" data-icon="mdi:whatsapp"></span> WhatsApp Us</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="md:col-span-2 space-y-6">
+                    <div class="rounded-3xl border border-brand/10 bg-brand/[0.02] p-8">
+                        <h3 class="text-lg font-bold mb-4">Quick Contact</h3>
+                        <div class="space-y-5">
+                            <a href="tel:+919717218294" class="flex items-start gap-4 group">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center flex-shrink-0 group-hover:bg-brand/20 transition-colors">
+                                    <span class="iconify text-brand" data-icon="mdi:phone"></span>
+                                </div>
+                                <div>
+                                    <div class="text-[10px] font-bold uppercase tracking-widest text-warm/35 mb-1">Phone
+                                    </div>
+                                    <div class="font-medium group-hover:text-brand transition-colors">+91 97172 18294
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://wa.me/919717218294" target="_blank" class="flex items-start gap-4 group">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-[#25D366]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#25D366]/20 transition-colors">
+                                    <span class="iconify text-[#25D366]" data-icon="mdi:whatsapp"></span>
+                                </div>
+                                <div>
+                                    <div class="text-[10px] font-bold uppercase tracking-widest text-warm/35 mb-1">
+                                        WhatsApp</div>
+                                    <div class="font-medium group-hover:text-[#25D366] transition-colors">+91 97172
+                                        18294</div>
+                                </div>
+                            </a>
+                            <a href="mailto:info@creativeinteriordecor.in" class="flex items-start gap-4 group">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center flex-shrink-0 group-hover:bg-brand/20 transition-colors">
+                                    <span class="iconify text-brand" data-icon="mdi:email"></span>
+                                </div>
+                                <div>
+                                    <div class="text-[10px] font-bold uppercase tracking-widest text-warm/35 mb-1">Email
+                                    </div>
+                                    <div class="font-medium group-hover:text-brand transition-colors text-sm">
+                                        info@creativeinteriordecor.in</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl border border-brand/10 bg-brand/[0.02] p-8">
+                        <h3 class="text-lg font-bold mb-4">Studio Hours</h3>
+                        <div class="space-y-3 text-sm">
+                            <div class="flex justify-between"><span class="text-warm/45">Mon – Sat</span><span
+                                    class="font-medium text-warm">10 AM – 7 PM</span></div>
+                            <div class="flex justify-between"><span class="text-warm/45">Sunday</span><span
+                                    class="font-medium text-warm">By Appointment</span></div>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl border border-brand/15 bg-brand/5 p-8">
+                        <div class="flex items-center gap-3 mb-3"><span class="iconify text-brand text-2xl"
+                                data-icon="mdi:phone-ring"></span>
+                            <h3 class="text-lg font-bold">Call Now</h3>
+                        </div>
+                        <p class="text-warm/45 text-sm font-light mb-4">Speak directly with our design consultant</p><a
+                            href="tel:+919717218294"
+                            class="block w-full py-3 bg-brand hover:bg-brand-light text-center text-xs font-bold uppercase tracking-widest rounded-full transition-all">+91
+                            97172 18294</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MAP ========== -->
+    <section class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 reveal"><span
+                    class="text-xs font-bold uppercase tracking-widest text-brand">Visit Us</span>
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight mt-4">Our Studio</h2>
+            </div>
+            <div class="rounded-3xl overflow-hidden border border-brand/10 h-[400px] reveal"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2!2d77.21!3d28.61!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzM2LjAiTiA3N8KwMTInMzYuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" height="100%" style="border:0; filter:invert(90%) hue-rotate(180deg) sepia(0.15);"
+                    allowfullscreen="" loading="lazy"></iframe></div>
+            <div class="flex items-center justify-center gap-2 mt-6 text-warm/40 text-sm reveal"><span
+                    class="iconify text-brand" data-icon="mdi:map-marker"></span>A-15, Main Road, Hauz Khas, New Delhi -
+                110016</div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="py-16 px-6 border-t border-brand/10 bg-[#151412]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-8 h-8 bg-brand rounded-sm flex items-center justify-center rotate-45"><span
+                                class="iconify text-white text-sm -rotate-45" data-icon="mdi:floor-plan"></span></div>
+                        <div><span class="font-bold text-base">Creative</span><span
+                                class="font-light text-base text-brand ml-1">Interior Decor</span></div>
+                    </div>
+                    <p class="text-warm/30 text-sm font-light leading-relaxed">Transforming spaces into stunning,
+                        functional works of art since 2009.</p>
+                    <div class="flex gap-3 mt-6"><a href="#"
+                            class="w-10 h-10 rounded-full border border-brand/15 flex items-center justify-center hover:bg-brand hover:border-brand transition-all"><span
+                                class="iconify text-sm" data-icon="mdi:instagram"></span></a><a href="#"
+                            class="w-10 h-10 rounded-full border border-brand/15 flex items-center justify-center hover:bg-brand hover:border-brand transition-all"><span
+                                class="iconify text-sm" data-icon="mdi:facebook"></span></a><a href="#"
+                            class="w-10 h-10 rounded-full border border-brand/15 flex items-center justify-center hover:bg-brand hover:border-brand transition-all"><span
+                                class="iconify text-sm" data-icon="mdi:youtube"></span></a><a href="#"
+                            class="w-10 h-10 rounded-full border border-brand/15 flex items-center justify-center hover:bg-brand hover:border-brand transition-all"><span
+                                class="iconify text-sm" data-icon="mdi:pinterest"></span></a></div>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-warm/50 mb-4">Quick Links</h4>
+                    <div class="space-y-3"><a href="#about"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">About Us</a><a
+                            href="#services"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Services</a><a
+                            href="#portfolio"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Portfolio</a><a
+                            href="#contact"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Contact</a></div>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-warm/50 mb-4">Services</h4>
+                    <div class="space-y-3"><a href="#services"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Home Interior</a><a
+                            href="#services"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Kitchen Design</a><a
+                            href="#services"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Office Interior</a><a
+                            href="#services"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Modular
+                            Furniture</a><a href="#services"
+                            class="block text-sm text-warm/30 hover:text-brand transition-colors">Renovation</a></div>
+                </div>
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-warm/50 mb-4">Contact</h4>
+                    <div class="space-y-3 text-sm text-warm/30">
+                        <p>A-15, Main Road, Hauz Khas,<br>New Delhi - 110016</p><a href="tel:+919717218294"
+                            class="block hover:text-brand transition-colors">+91 97172 18294</a><a
+                            href="mailto:info@creativeinteriordecor.in"
+                            class="block hover:text-brand transition-colors">info@creativeinteriordecor.in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-brand/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-warm/20 text-xs">© 2025 Creative Interior Decor. All rights reserved.</p>
+                <p class="text-warm/20 text-xs">Designed with <span class="text-brand">♥</span> for beautiful spaces</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== FLOATING BUTTONS ========== -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a href="tel:+919717218294"
+            class="w-14 h-14 bg-brand hover:bg-brand-light rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all"><span
+                class="iconify text-white text-2xl" data-icon="mdi:phone"></span></a>
+        <a href="https://wa.me/919717218294?text=Hi%20Creative%20Interior%20Decor!%20I'm%20interested%20in%20your%20interior%20design%20services."
+            target="_blank"
+            class="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-2xl whatsapp-float hover:scale-110 transition-all"><span
+                class="iconify text-white text-3xl" data-icon="mdi:whatsapp"></span></a>
+    </div>
+
+    <!-- ========== LIGHTBOX ========== -->
+    <div id="lightbox" class="lightbox fixed inset-0 z-[100] bg-[#0F0E0C]/90 flex items-center justify-center p-6"
+        onclick="closeLightbox()"><button class="absolute top-6 right-6 text-warm/60 hover:text-white transition-colors"
+            onclick="closeLightbox()"><span class="iconify text-3xl" data-icon="mdi:close"></span></button><img
+            id="lightboxImg" src="" class="max-w-full max-h-[85vh] object-contain rounded-2xl"
+            onclick="event.stopPropagation()"></div>
+
+    <!-- ========== TOAST ========== -->
+    <div id="toast"
+        class="toast fixed bottom-6 left-6 z-[110] bg-[#1a1917] border border-brand/20 rounded-2xl px-6 py-4 flex items-center gap-3 shadow-2xl">
+        <span id="toastIcon" class="iconify text-brand text-2xl" data-icon="mdi:check-circle"></span>
+        <div>
+            <div id="toastTitle" class="font-semibold text-sm">Enquiry Sent!</div>
+            <div id="toastMsg" class="text-warm/40 text-xs">We'll contact you within 2 hours.</div>
+        </div>
+    </div>
+
+    <!-- ========== JS ========== -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn'), mobileMenu = document.getElementById('mobileMenu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('.mobile-link').forEach(l => l.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+        const rObs = new IntersectionObserver(e => { e.forEach(en => { if (en.isIntersecting) en.target.classList.add('active') }) }, { threshold: .1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => rObs.observe(el));
+        window.addEventListener('scroll', () => { const n = document.getElementById('navbar'); if (window.scrollY > 100) { n.classList.add('bg-[#0F0E0C]/95'); n.classList.remove('bg-[#0F0E0C]/80') } else { n.classList.remove('bg-[#0F0E0C]/95'); n.classList.add('bg-[#0F0E0C]/80') } });
+        function filterPortfolio(c) { document.querySelectorAll('.portfolio-filter').forEach(b => { b.classList.remove('bg-brand', 'text-white'); b.classList.add('bg-brand/5', 'text-warm/50') }); const a = document.querySelector(`[data-filter="${c}"]`); a.classList.remove('bg-brand/5', 'text-warm/50'); a.classList.add('bg-brand', 'text-white'); document.querySelectorAll('.portfolio-item').forEach(i => { i.style.display = (c === 'all' || i.dataset.category === c) ? '' : 'none' }) }
+        function openLightbox(el) { document.getElementById('lightboxImg').src = el.querySelector('img').src; document.getElementById('lightbox').classList.add('active'); document.body.style.overflow = 'hidden' }
+        function closeLightbox() { document.getElementById('lightbox').classList.remove('active'); document.body.style.overflow = '' }
+        function toggleFaq(btn) { const it = btn.closest('.faq-item'), an = it.querySelector('.faq-answer'), ic = btn.querySelector('.faq-icon'), op = an.style.maxHeight && an.style.maxHeight !== '0px'; document.querySelectorAll('.faq-answer').forEach(a => a.style.maxHeight = '0px'); document.querySelectorAll('.faq-icon').forEach(i => { i.setAttribute('data-icon', 'mdi:plus'); i.style.transform = 'rotate(0deg)' }); document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('border-brand/20'); i.classList.add('border-brand/10') }); if (!op) { an.style.maxHeight = an.scrollHeight + 'px'; ic.setAttribute('data-icon', 'mdi:minus'); ic.style.transform = 'rotate(180deg)'; it.classList.remove('border-brand/10'); it.classList.add('border-brand/20') } }
+        document.querySelectorAll('[data-slider]').forEach(sl => { const h = sl.querySelector('.ba-handle'), af = sl.querySelector('.ba-after'); let dr = false; function up(x) { const r = sl.getBoundingClientRect(); let p = Math.max(.05, Math.min(.95, (x - r.left) / r.width)); af.style.clipPath = `inset(0 ${(1 - p) * 100}% 0 0)`; h.style.left = `${p * 100}%` } sl.addEventListener('mousedown', e => { dr = true; up(e.clientX) }); sl.addEventListener('touchstart', e => { dr = true; up(e.touches[0].clientX) }, { passive: true }); window.addEventListener('mousemove', e => { if (dr) up(e.clientX) }); window.addEventListener('touchmove', e => { if (dr) up(e.touches[0].clientX) }, { passive: true }); window.addEventListener('mouseup', () => dr = false); window.addEventListener('touchend', () => dr = false); af.style.clipPath = 'inset(0 50% 0 0)' });
+        // ======= EMAILJS CONFIG — FILL YOUR KEYS BELOW =======
+        const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';   // e.g. 'abc123XYZ'
+        const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';   // e.g. 'service_xxxxxx'
+        const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';  // e.g. 'template_xxxxxx'
+        // ========================================================
+        emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+
+        function showToast(success) {
+            const t = document.getElementById('toast');
+            const icon = document.getElementById('toastIcon');
+            const title = document.getElementById('toastTitle');
+            const msg = document.getElementById('toastMsg');
+            if (success) {
+                icon.setAttribute('data-icon', 'mdi:check-circle');
+                icon.className = 'iconify text-brand text-2xl';
+                title.textContent = 'Enquiry Sent!';
+                msg.textContent = "We'll contact you within 2 hours.";
+            } else {
+                icon.setAttribute('data-icon', 'mdi:alert-circle');
+                icon.className = 'iconify text-red-400 text-2xl';
+                title.textContent = 'Failed to Send';
+                msg.textContent = 'Please call or WhatsApp us directly.';
+            }
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 5000);
+        }
+
+        function handleContact(e) {
+            e.preventDefault();
+            const form = e.target;
+            const d = new FormData(form);
+            const btn = form.querySelector('button[type="submit"]');
+            btn.disabled = true;
+            btn.textContent = 'Sending...';
+
+            const params = {
+                from_name: d.get('name'),
+                phone: d.get('phone'),
+                email: d.get('email') || 'Not provided',
+                location: d.get('location') || 'Not provided',
+                project: d.get('project'),
+                message: d.get('message') || 'No message'
+            };
+
+            emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params)
+                .then(() => {
+                    showToast(true);
+                    form.reset();
+                })
+                .catch(() => {
+                    showToast(false);
+                })
+                .finally(() => {
+                    btn.disabled = false;
+                    btn.innerHTML = '<span class="iconify" data-icon="mdi:send"></span> Send Enquiry';
+                });
+        }
+        function bookViaWhatsApp() { const d = new FormData(document.getElementById('contactForm')); const m = `Hi Creative Interior Decor!\n\nName: ${d.get('name') || 'N/A'}\nPhone: ${d.get('phone') || 'N/A'}\nProject: ${d.get('project') || 'N/A'}\nMessage: ${d.get('message') || 'None'}`; window.open(`https://wa.me/919717218294?text=${encodeURIComponent(m)}`, '_blank') }
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox() });
+    </script>
+</body>
+
+</html>
